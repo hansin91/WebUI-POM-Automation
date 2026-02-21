@@ -44,7 +44,6 @@ browsers.forEach(async (browser) => {
       await loginAction.inputPassword("secret_sauce");
       await loginAction.clickLogin();
       await loginAction.assertLoginSuccess();
-
       await compareScreenshot(driver, `${browser}_success_login`);
     });
 
