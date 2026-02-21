@@ -15,15 +15,3 @@ npm install
 ```
 npm run test
 ```
-
-## Generate test report (mochawesome)
-
-```
-npm run report
-```
-
-## Generate test html-report
-
-```
-npm run html-report
-```
